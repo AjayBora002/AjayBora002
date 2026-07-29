@@ -14,10 +14,12 @@
 
 - 🎯 AI/ML Engineer specializing in **Generative AI systems**, scalable **ETL data pipelines**, and **predictive modeling**
 - 🎓 B.Tech in Computer Science Engineering (AI/ML) @ Amrapali University — expected Aug 2028
-- ☁️ Cloud/AI Intern @ **Buimb Digital** — building an AWS-based hosting & deployment platform
+- ☁️ Cloud/AI Intern @ **Buimb Digital** — building an AWS-based hosting & deployment platform from the ground up
 - 📊 Former Data Visualization Intern @ **Infosys Springboard** — built a 132K+ record climate analytics pipeline
+- 🧠 Former Data Science & AI/ML Intern @ **YBI Foundation** — applied ML fundamentals to real-world datasets
 - 🧩 Open-source contributor to **pgmpy** (GSoC org) — 2 merged PRs
 - 🏆 Hackathon regular — semi-finalist at ET-AI Hackathon 2026, participant at IIT Kharagpur & IIT-BHU
+- 🐧 Comfortable across the stack — from Linux server administration to React front-ends
 - 📍 Based in Haldwani, Uttarakhand, India
 
 ---
@@ -36,6 +38,11 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
+**Frontend**
+<br>
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white)
+
 **AI / ML**
 <br>
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -44,12 +51,13 @@
 ![Gemini](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-**Cloud & DevOps**
+**Cloud, DevOps & OS**
 <br>
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Visualization & Data**
@@ -78,7 +86,7 @@
 **🧾 [Smartdoc-Renamer](https://github.com/AjayBora002/Poshan-Pahad)**
 <br><sub>AWS Lambda · S3 · Textract · Bedrock · API Gateway</sub>
 
-Serverless AWS AI document automation platform — extracts text from PDFs, generates intelligent file names using AI, stores in S3, returns downloadable ZIPs.
+A fully serverless document automation pipeline. Uploaded files land in S3, trigger a Python Lambda that runs OCR via Amazon Textract, then passes extracted text to Amazon Bedrock (Claude) to generate context-aware file names. Renamed files are zipped and returned via a presigned URL — no manual file handling required. Solved real deployment challenges around IAM permissions, CORS, and API Gateway routing along the way.
 
 </td>
 <td width="50%" valign="top">
@@ -86,7 +94,7 @@ Serverless AWS AI document automation platform — extracts text from PDFs, gene
 **🎙️ [Voice Assistant — Jarvis](https://github.com/AjayBora002/Voice-Assistant)**
 <br><sub>Python · Gemini API · Pyttsx3 · SpeechRecognition</sub>
 
-Desktop AI voice assistant with web search, system automation, and multi-turn conversational AI via a custom wake-word engine.
+A desktop AI voice assistant built around a custom wake-word engine. Handles web search, system automation, and multi-turn conversational AI, combining speech recognition with the Gemini API for natural, context-aware responses.
 
 </td>
 </tr>
@@ -96,7 +104,7 @@ Desktop AI voice assistant with web search, system automation, and multi-turn co
 **🥗 [Poshan Pahad AI](https://github.com/AjayBora002/Poshan-Pahad)**
 <br><sub>GenAI · Docker · NLP · Flask</sub>
 
-Nutrition awareness project promoting healthy eating and local nutritious foods in hilly and rural communities.
+A nutrition-awareness platform built for hilly and rural communities, using NLP to surface locally available nutritious foods and promote healthier eating habits. Containerized with Docker for consistent deployment and served through a Flask backend.
 
 </td>
 <td width="50%" valign="top">
@@ -104,7 +112,7 @@ Nutrition awareness project promoting healthy eating and local nutritious foods 
 **🎬 [Anime & Movie Recommendation System](https://github.com/AjayBora002/anime_recommendation)**
 <br><sub>Python · Scikit-Learn · Cosine Similarity</sub>
 
-Content-based & collaborative filtering engine processing tens of thousands of user preferences for personalized suggestions.
+A hybrid recommendation engine combining content-based and collaborative filtering, processing tens of thousands of user preferences with cosine similarity to generate personalized suggestions.
 
 </td>
 </tr>
@@ -114,7 +122,7 @@ Content-based & collaborative filtering engine processing tens of thousands of u
 **♿ [Voice Aid](https://github.com/AjayBora002/voice-aid)**
 <br><sub>React · Firebase · Google Maps API</sub>
 
-Voice-based assistive technology enabling speech-command interaction for accessibility and hands-free control.
+An accessibility-focused React app enabling speech-command interaction for hands-free control. Uses Firebase for real-time data and the Google Maps API for location-based assistance, aimed at making everyday tasks easier for users with mobility or visual impairments.
 
 </td>
 <td width="50%" valign="top">
@@ -122,7 +130,7 @@ Voice-based assistive technology enabling speech-command interaction for accessi
 **🌦️ Climate Scope** *(Infosys Springboard)*
 <br><sub>Python · Pandas · Streamlit · Plotly</sub>
 
-Automated ETL pipeline ingesting 132K+ weather records; interactive dashboard with choropleth maps across 3,000+ locations.
+An automated ETL pipeline ingesting and cleaning 132K+ weather records, feeding an interactive Streamlit dashboard with choropleth maps spanning 3,000+ locations — built to make climate trends explorable at a glance.
 
 </td>
 </tr>
@@ -132,11 +140,14 @@ Automated ETL pipeline ingesting 132K+ weather records; interactive dashboard wi
 
 ### 💼 Experience
 
-```text
-Cloud / AI Intern              Buimb Digital                    June 2026 – Present
-Data Visualization Intern      Infosys Springboard              Feb 2026 – Apr 2026
-Data Science & AI/ML Intern    YBI Foundation                   Jan 2025 – Mar 2025
-```
+**☁️ Cloud/AI Intern — Buimb Digital** · *June 2026 – Present*
+Building an AWS-based hosting and deployment platform from scratch — covering infrastructure setup, deployment automation, and cloud architecture decisions for the platform's core services.
+
+**📊 Data Visualization Intern — Infosys Springboard** · *Feb 2026 – Apr 2026*
+Designed and shipped Climate Scope, an ETL pipeline and dashboard processing 132K+ climate records across 3,000+ locations, translating raw weather data into interactive visual insights.
+
+**🧠 Data Science & AI/ML Intern — YBI Foundation** · *Jan 2025 – Mar 2025*
+Applied core data science and machine learning techniques to real-world datasets, building foundational experience in model development and evaluation.
 
 ---
 
