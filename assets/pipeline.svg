@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230">
+<defs>
+<linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0a1a"/><stop offset="1" stop-color="#190f36"/></linearGradient>
+<filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.04"/></pattern>
+</defs>
+<rect width="1000" height="230" rx="16" fill="url(#pbg)"/><rect width="1000" height="230" rx="16" fill="url(#grid)"/>
+<text x="500" y="38" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" letter-spacing="4" fill="#c4b5fd">HOW I BUILD DATA PIPELINES</text>
+<path d="M40 120.0H950" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" values="0;-24" dur="1.2s" repeatCount="indefinite"/></path>
+<rect x="40" y="80" width="150" height="80" rx="12" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-width="2"><animate attributeName="fill-opacity" values="0.10;0.45;0.10" dur="1.4s" begin="0.58s" repeatCount="indefinite"/></rect>
+<text x="115.0" y="116" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="17" font-weight="bold" fill="#22d3ee">EXTRACT</text>
+<text x="115.0" y="138" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#e5e7eb" opacity="0.8">APIs · CSV · DB</text>
+<text x="50" y="72" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#22d3ee" opacity="0.7">01</text>
+<rect x="230" y="80" width="150" height="80" rx="12" fill="#a78bfa" fill-opacity="0.10" stroke="#a78bfa" stroke-width="2"><animate attributeName="fill-opacity" values="0.10;0.45;0.10" dur="1.4s" begin="2.04s" repeatCount="indefinite"/></rect>
+<text x="305.0" y="116" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="17" font-weight="bold" fill="#a78bfa">CLEAN</text>
+<text x="305.0" y="138" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#e5e7eb" opacity="0.8">validate · dedupe</text>
+<text x="240" y="72" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#a78bfa" opacity="0.7">02</text>
+<rect x="420" y="80" width="150" height="80" rx="12" fill="#f472b6" fill-opacity="0.10" stroke="#f472b6" stroke-width="2"><animate attributeName="fill-opacity" values="0.10;0.45;0.10" dur="1.4s" begin="3.5s" repeatCount="indefinite"/></rect>
+<text x="495.0" y="116" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="17" font-weight="bold" fill="#f472b6">TRANSFORM</text>
+<text x="495.0" y="138" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#e5e7eb" opacity="0.8">pandas · SQL</text>
+<text x="430" y="72" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#f472b6" opacity="0.7">03</text>
+<rect x="610" y="80" width="150" height="80" rx="12" fill="#facc15" fill-opacity="0.10" stroke="#facc15" stroke-width="2"><animate attributeName="fill-opacity" values="0.10;0.45;0.10" dur="1.4s" begin="4.96s" repeatCount="indefinite"/></rect>
+<text x="685.0" y="116" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="17" font-weight="bold" fill="#facc15">LOAD</text>
+<text x="685.0" y="138" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#e5e7eb" opacity="0.8">PostgreSQL · S3</text>
+<text x="620" y="72" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#facc15" opacity="0.7">04</text>
+<rect x="800" y="80" width="150" height="80" rx="12" fill="#4ade80" fill-opacity="0.10" stroke="#4ade80" stroke-width="2"><animate attributeName="fill-opacity" values="0.10;0.45;0.10" dur="1.4s" begin="6.42s" repeatCount="indefinite"/></rect>
+<text x="875.0" y="116" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="17" font-weight="bold" fill="#4ade80">SERVE</text>
+<text x="875.0" y="138" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#e5e7eb" opacity="0.8">APIs · dashboards</text>
+<text x="810" y="72" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#4ade80" opacity="0.7">05</text>
+<circle r="7" fill="#22d3ee" filter="url(#g)"><animateMotion dur="7.0s" begin="0.0s" repeatCount="indefinite" path="M40 120.0H950"/></circle>
+<circle r="7" fill="#a78bfa" filter="url(#g)"><animateMotion dur="7.0s" begin="1.4s" repeatCount="indefinite" path="M40 120.0H950"/></circle>
+<circle r="7" fill="#f472b6" filter="url(#g)"><animateMotion dur="7.0s" begin="2.8s" repeatCount="indefinite" path="M40 120.0H950"/></circle>
+<circle r="7" fill="#facc15" filter="url(#g)"><animateMotion dur="7.0s" begin="4.2s" repeatCount="indefinite" path="M40 120.0H950"/></circle>
+<circle r="7" fill="#4ade80" filter="url(#g)"><animateMotion dur="7.0s" begin="5.6s" repeatCount="indefinite" path="M40 120.0H950"/></circle>
+<text x="40" y="196" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" fill="#9ca3af">raw, messy data</text>
+<text x="960" y="196" text-anchor="end" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" fill="#9ca3af">clean, queryable data</text>
+<text x="500" y="196" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" fill="#c4b5fd">Python · SQL · Pandas · Docker</text>
+</svg>
