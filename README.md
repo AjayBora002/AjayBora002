@@ -21,7 +21,7 @@
 | **Looking for** | Data engineering / ML / full-stack internships |
 | **Now** | Software Dev Intern @ Buimb Digital, shipping full-stack features in production |
 | **Proof** | 2 merged PRs in [pgmpy](https://github.com/pgmpy/pgmpy) · [weather × ridership data pipeline](https://github.com/AjayBora002/Data-Engine-Pipeline) |
-| **Core stack** | Python · SQL · Pandas · FastAPI · React · PostgreSQL · Docker |
+| **Core stack** | Python · SQL · Pandas · FastAPI · Scikit-learn · MySQL · Docker |
 
 <br/>
 
@@ -56,7 +56,7 @@ Merged contributions to an open-source Python library for probabilistic graphica
 
 ## 🧰 Toolbox
 
-<img src="assets/skills.svg" width="100%" alt="Skills: Python, SQL, Pandas, FastAPI, React, PostgreSQL, Docker, AWS and more" />
+<img src="assets/skills.svg" width="100%" alt="Skills: Python, SQL, Pandas, FastAPI, Scikit-Learn, MySQL, Docker, AWS and more" />
 
 <br/>
 
