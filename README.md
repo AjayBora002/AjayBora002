@@ -1,31 +1,36 @@
-<div align="center">
+<h1 align="center">Ajay Bora</h1>
 
-# Ajay Bora
+<p align="center">
+  <b>Data Engineer & Full-Stack Developer</b><br/>
+  <i>Specializing in robust ETL pipelines, applied machine learning, and scalable web architectures</i>
+</p>
 
-### Data Engineer · AI/ML · Full-Stack Developer
+<p align="center">
+  <a href="mailto:boraajay26@gmail.com"><img src="https://img.shields.io/badge/Email-boraajay26%40gmail.com-007ACC?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/ajay-bora-79b5b0340"><img src="https://img.shields.io/badge/LinkedIn-Ajay_Bora-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://ajay-bora-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-ajay--bora-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/AjayBora002"><img src="https://img.shields.io/badge/GitHub-AjayBora002-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-![status](https://img.shields.io/badge/status-open_to_internships-2ea043?style=for-the-badge)
-![focus](https://img.shields.io/badge/focus-data_engineering_·_ML-6d28d9?style=for-the-badge)
-![class](https://img.shields.io/badge/B.Tech_AI%2FML-2028-1f2328?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Open_to_Internships-2ea043?style=flat-square" alt="Status: Open to Internships" />
+  <img src="https://img.shields.io/badge/Role-Software_Dev_Intern_%40_Buimb_Digital-0969da?style=flat-square" alt="Role: Software Dev Intern @ Buimb Digital" />
+  <img src="https://img.shields.io/badge/Academics-B.Tech_CSE_(AI%2FML)_'28-6f42c1?style=flat-square" alt="Academics: B.Tech CSE (AI/ML) 2028" />
+</p>
 
-<a href="mailto:boraajay26@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/ajay-bora-79b5b0340"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://ajay-bora-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6d28d9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+---
 
-</div>
+## 📌 Executive Summary
 
-<br/>
+I am a Computer Science undergraduate (B.Tech AI/ML, 2024–2028) at Amrapali University and currently a **Software Development Intern at Buimb Digital**. My primary focus lies at the intersection of **Data Engineering** and **Full-Stack Development**—designing automated data ingestion pipelines, cleaning and modeling complex datasets, and building high-performance APIs and user interfaces to serve actionable data.
 
-## ⚡ 10-second summary
+- 💼 **Current Role**: Software Development Intern at **Buimb Digital**, building and deploying full-stack features in production.
+- 🔬 **Open-Source Impact**: Contributor to **[pgmpy](https://github.com/pgmpy/pgmpy)** (Probabilistic Graphical Models in Python) with 2 merged pull requests.
+- 🏗️ **Core Competencies**: Scalable ETL architectures, relational & NoSQL database design, REST API engineering, and machine learning workflows.
+- 🎓 **Education**: B.Tech in Computer Science & Engineering (Artificial Intelligence & Machine Learning) • Class of 2028.
+- 🎯 **Availability**: Open to Data Engineering, Machine Learning, and Backend Engineering internship opportunities.
 
-| | |
-|---|---|
-| **Looking for** | Data engineering / ML / full-stack internships |
-| **Now** | Software Dev Intern @ Buimb Digital, shipping full-stack features in production |
-| **Proof** | 2 merged PRs in [pgmpy](https://github.com/pgmpy/pgmpy) · [weather × ridership data pipeline](https://github.com/AjayBora002/Data-Engine-Pipeline) |
-| **Core stack** | Python · SQL · Pandas · FastAPI · React · PostgreSQL · Docker |
-
-<br/>
+---
 
 ## 🧪 Selected work
 
