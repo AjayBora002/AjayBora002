@@ -118,30 +118,53 @@ flowchart LR
 
 ---
 
-## 🧪 Selected work
+## 💼 Experience & Open-Source Contributions
+
+### 🏢 Software Development Intern · Buimb Digital
+*Production Engineering & Full-Stack Systems*
+- Developed, tested, and shipped full-stack features within a live production environment.
+- Architected performant REST endpoints, integrated third-party APIs, and optimized relational database schemas and queries in PostgreSQL.
+- Participated in production deployments, peer code reviews, and continuous integration workflows.
+- **Tech Stack:** `Node.js` · `React` · `PostgreSQL` · `RESTful APIs` · `Git`
+
+### 🔬 Open-Source Contributor · [pgmpy](https://github.com/pgmpy/pgmpy)
+*Probabilistic Graphical Models in Python*
+- Merged 2 pull requests into **pgmpy**, an established open-source Python framework for Bayesian networks, Markov models, and probabilistic inference.
+- Improved library routines, enhanced mathematical consistency, and contributed comprehensive unit tests to ensure stability across Python releases.
+- **Tech Stack:** `Python` · `Bayesian Networks` · `NumPy` · `pytest` · `Open-Source Git Workflow`
+
+---
+
+## 🚀 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🌦️ [Data-Engine-Pipeline](https://github.com/AjayBora002/Data-Engine-Pipeline)
-A data pipeline that combines climate/weather data with ridership data so the two can be analyzed together.
+*Automated Multi-Source Climate & Urban Transit ETL Pipeline*
 
-`Python` `ETL` `Pandas`
+- Orchestrates end-to-end data ingestion by pulling raw climate and transit ridership data from diverse sources.
+- Performs automated schema validation, missing data handling, deduplication, and feature normalization using **Pandas**.
+- Loads clean, structured data into **PostgreSQL** to enable unified analytical queries and correlation studies between weather anomalies and transit volume.
+- **Tech Stack:** `Python` `Pandas` `PostgreSQL` `ETL` `Data Architecture`
 
 </td>
 <td width="50%" valign="top">
 
-### 🔬 [pgmpy](https://github.com/pgmpy/pgmpy)
-Merged contributions to an open-source Python library for probabilistic graphical models.
+### 🌐 [Ajay Bora Portfolio](https://ajay-bora-portfolio.vercel.app)
+*Personal Developer Platform & Project Showcase*
 
-`Python` `Open source`
+- High-performance, responsive portfolio showcasing software architecture, engineering write-ups, and live projects.
+- Built with modern frontend paradigms for sub-second load times and seamless cross-device compatibility.
+- Fully integrated with Vercel CI/CD for automated deployments on every branch push.
+- **Tech Stack:** `React` `JavaScript` `CSS3` `Vercel` `Responsive UI`
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
 ## 📊 GitHub
 
