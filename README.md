@@ -166,9 +166,27 @@ flowchart LR
 
 ---
 
-## 📊 GitHub
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AjayBora002&show_icons=true&theme=radical&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://streak-stats.demolab.com/?user=AjayBora002&theme=radical&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AjayBora002&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="Ajay's GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AjayBora002&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
 </p>
+
+---
+
+## 📬 Let's Connect
+
+I am actively seeking **Data Engineering**, **Machine Learning**, and **Full-Stack / Backend** internship opportunities where I can contribute to mission-critical systems and build high-impact software.
+
+<div align="center">
+
+<a href="mailto:boraajay26@gmail.com"><img src="https://img.shields.io/badge/Email_Me-boraajay26%40gmail.com-007ACC?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/ajay-bora-79b5b0340"><img src="https://img.shields.io/badge/LinkedIn-Ajay_Bora-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://ajay-bora-portfolio.vercel.app"><img src="https://img.shields.io/badge/Live_Portfolio-ajay--bora-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+
+<br/><br/>
+
+<sub>Focused on building reliable data systems, clean architectures, and performant code.</sub>
+
+</div>
