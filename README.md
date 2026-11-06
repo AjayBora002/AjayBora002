@@ -32,6 +32,92 @@ I am a Computer Science undergraduate (B.Tech AI/ML, 2024–2028) at Amrapali Un
 
 ---
 
+## ⚙️ Data Pipeline Architecture
+
+```mermaid
+flowchart LR
+    A["<b>01. Ingestion</b><br/>REST APIs, CSVs, Relational DBs"] --> B["<b>02. Validation & Cleaning</b><br/>Schema checks, deduplication, imputation"]
+    B --> C["<b>03. Transformation & ETL</b><br/>Pandas, NumPy, SQL aggregation"]
+    C --> D["<b>04. Storage & Warehouse</b><br/>PostgreSQL, S3 / Object Store"]
+    D --> E["<b>05. Delivery & Serving</b><br/>FastAPI endpoints, React UI, Analytics"]
+```
+
+> **Design Philosophy**: Building resilient data workflows from ingestion to serving—prioritizing schema consistency, data integrity, idempotent pipeline runs, and low-latency querying.
+
+---
+
+## 🛠️ Technical Arsenal
+
+<table>
+  <tr>
+    <td width="22%"><b>Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Data Engineering & ML</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/ETL_Pipelines-0052CC?style=flat-square" alt="ETL Pipelines" />
+      <img src="https://img.shields.io/badge/Data_Modeling-4B32C3?style=flat-square" alt="Data Modeling" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend & APIs</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
+      <img src="https://img.shields.io/badge/REST_APIs-005571?style=flat-square" alt="REST APIs" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Databases & Caching</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>DevOps & Tooling</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🧪 Selected work
 
 <table>
@@ -53,18 +139,6 @@ Merged contributions to an open-source Python library for probabilistic graphica
 
 </td>
 </tr>
-</table>
-
-<br/>
-
-## 🧰 Toolbox
-
-<table>
-<tr><td><b>Languages</b></td><td>Python · SQL · JavaScript · Java · C</td></tr>
-<tr><td><b>Data & ML</b></td><td>Pandas · scikit-learn · TensorFlow · LangChain</td></tr>
-<tr><td><b>Backend & Web</b></td><td>FastAPI · Flask · Node.js · React</td></tr>
-<tr><td><b>Databases</b></td><td>PostgreSQL · MySQL · MongoDB · Redis</td></tr>
-<tr><td><b>DevOps & Cloud</b></td><td>Docker · AWS · GitHub Actions · Linux · Vercel</td></tr>
 </table>
 
 <br/>
