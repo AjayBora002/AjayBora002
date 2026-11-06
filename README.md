@@ -36,11 +36,19 @@ I am a Computer Science undergraduate (B.Tech AI/ML, 2024–2028) at Amrapali Un
 
 ```mermaid
 flowchart LR
-    A["<b>01. Ingestion</b><br/>REST APIs, CSVs, Relational DBs"] --> B["<b>02. Validation & Cleaning</b><br/>Schema checks, deduplication, imputation"]
-    B --> C["<b>03. Transformation & ETL</b><br/>Pandas, NumPy, SQL aggregation"]
-    C --> D["<b>04. Storage & Warehouse</b><br/>PostgreSQL, S3 / Object Store"]
-    D --> E["<b>05. Delivery & Serving</b><br/>FastAPI endpoints, React UI, Analytics"]
+    A["01. Ingestion: APIs & DBs"] --> B["02. Validation: Schema & Dedupe"]
+    B --> C["03. Transform: Pandas & SQL"]
+    C --> D["04. Storage: PostgreSQL & S3"]
+    D --> E["05. Serving: FastAPI & React"]
 ```
+
+| Phase | Pipeline Scope | Primary Technologies |
+| :--- | :--- | :--- |
+| **01. Ingestion** | Batch extraction, third-party REST APIs, relational databases, CSV streams | Python · Requests · SQLAlchemy |
+| **02. Validation** | Schema validation, type checking, deduplication, anomaly detection | Pandas · Pydantic · Great Expectations |
+| **03. Transformation** | Multi-source joining, data enrichment, feature engineering, SQL aggregations | Pandas · NumPy · SQL |
+| **04. Storage** | Normalized schemas, partitioned tables, optimized indexes, object storage | PostgreSQL · S3 Storage · Redis |
+| **05. Serving** | High-performance REST APIs, analytical endpoints, real-time UI dashboards | FastAPI · React · Next.js |
 
 > **Design Philosophy**: Building resilient data workflows from ingestion to serving—prioritizing schema consistency, data integrity, idempotent pipeline runs, and low-latency querying.
 
@@ -169,8 +177,11 @@ flowchart LR
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AjayBora002&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="Ajay's GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AjayBora002&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AjayBora002&theme=github_dark" alt="GitHub Profile Summary" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AjayBora002&theme=github_dark" alt="Language Distribution" />
+  <img src="https://streak-stats.demolab.com/?user=AjayBora002&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
