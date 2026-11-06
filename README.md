@@ -1,6 +1,8 @@
-<img src="assets/header.svg" width="100%" alt="Ajay Bora - Data Engineer, AI/ML, Full-Stack" />
-
 <div align="center">
+
+# Ajay Bora
+
+### Data Engineer · AI/ML · Full-Stack Developer
 
 ![status](https://img.shields.io/badge/status-open_to_internships-2ea043?style=for-the-badge)
 ![focus](https://img.shields.io/badge/focus-data_engineering_·_ML-6d28d9?style=for-the-badge)
@@ -21,11 +23,7 @@
 | **Looking for** | Data engineering / ML / full-stack internships |
 | **Now** | Software Dev Intern @ Buimb Digital, shipping full-stack features in production |
 | **Proof** | 2 merged PRs in [pgmpy](https://github.com/pgmpy/pgmpy) · [weather × ridership data pipeline](https://github.com/AjayBora002/Data-Engine-Pipeline) |
-| **Core stack** | Python · SQL · Pandas · FastAPI · Scikit-learn · MySQL · Docker |
-
-<br/>
-
-<img src="assets/pipeline.svg" width="100%" alt="Animated data pipeline: extract, clean, transform, load, serve" />
+| **Core stack** | Python · SQL · Pandas · FastAPI · React · PostgreSQL · Docker |
 
 <br/>
 
@@ -56,7 +54,13 @@ Merged contributions to an open-source Python library for probabilistic graphica
 
 ## 🧰 Toolbox
 
-<img src="assets/skills.svg" width="100%" alt="Skills: Python, SQL, Pandas, FastAPI, Scikit-Learn, MySQL, Docker, AWS and more" />
+<table>
+<tr><td><b>Languages</b></td><td>Python · SQL · JavaScript · Java · C</td></tr>
+<tr><td><b>Data & ML</b></td><td>Pandas · scikit-learn · TensorFlow · LangChain</td></tr>
+<tr><td><b>Backend & Web</b></td><td>FastAPI · Flask · Node.js · React</td></tr>
+<tr><td><b>Databases</b></td><td>PostgreSQL · MySQL · MongoDB · Redis</td></tr>
+<tr><td><b>DevOps & Cloud</b></td><td>Docker · AWS · GitHub Actions · Linux · Vercel</td></tr>
+</table>
 
 <br/>
 
@@ -66,5 +70,3 @@ Merged contributions to an open-source Python library for probabilistic graphica
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=AjayBora002&show_icons=true&theme=radical&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" />
   <img height="165" src="https://streak-stats.demolab.com/?user=AjayBora002&theme=radical&hide_border=true" />
 </p>
-
-<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by" />
